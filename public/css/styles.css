@@ -1,0 +1,133 @@
+body {
+    font-family: "Georgia", serif;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #e67e22;
+}
+
+.content {
+    background: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.about-text h3 {
+    color: #333;
+    margin-top: 25px;
+}
+
+.about-text p {
+    line-height: 1.7em;
+    font-size: 15px;
+}
+
+.about-text a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Read more section */
+.readmore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.custom-image-space {
+    background-image: url('icon1.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none; /* remove dashed border */
+}
+
+/* Read more text */
+.readmore a {
+    color: #e67e22;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.readmore a:hover {
+    color: #d35400;
+}
+
